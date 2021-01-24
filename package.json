@@ -1,9 +1,16 @@
 {
   "name": "Loan-calculator",
   "version": "1.0.0",
+  "description": "a simple tool that will allow you to predict how much a personal loan will cost you as you pay it back every month.",
   "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d Loan-calculator"
+  },
   "repository": "https://github.com/Jayprecode/loan-calculator.git",
   "author": "Jayprecode <jayprecode@gmail.com>",
   "license": "MIT",
-  "homepage": "https://Jayprecode.github.io/loan-calculator"
+  "homepage": "https://Jayprecode.github.io/loan-calculator",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
