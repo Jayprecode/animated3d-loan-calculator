@@ -1,0 +1,9 @@
+{
+  "name": "Loan-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jayprecode/loan-calculator.git",
+  "author": "Jayprecode <jayprecode@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://Jayprecode.github.io/loan-calculator"
+}

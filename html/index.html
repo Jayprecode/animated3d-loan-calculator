@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="heading">Loan Calculator</h1>
+        <form id="loan-form">
+          <div class="form__container">
+            <div class="input__group"><span>$</span>
+              <input class="form-control" type="number" id="amount" placeholder="Loan Amount">
+            </div>
+          </div>
+          <div class="form__container">
+            <div class="input__group"><span>%</span>
+              <input class="form-control" type="number" id="interest" placeholder="Interest Rate">
+            </div>
+          </div>
+          <div class="form__container">
+            <input class="form-control" type="number" id="years" placeholder="Years To Repay">
+          </div>
+          <div class="form__container">
+            <input class="btn" type="submit" value="Calculate">
+          </div>
+        </form><!--Loader Here-->
+        <div class="loader" id="loading">
+          <div class="box box0">
+            <div></div>
+          </div>
+          <div class="box box1">
+            <div></div>
+          </div>
+          <div class="box box2">
+            <div></div>
+          </div>
+          <div class="box box3">
+            <div></div>
+          </div>
+          <div class="box box4">
+            <div></div>
+          </div>
+          <div class="box box5">
+            <div></div>
+          </div>
+          <div class="box box6">
+            <div></div>
+          </div>
+          <div class="box box7">
+            <div></div>
+          </div>
+          <div class="ground">
+            <div></div>
+          </div>
+        </div><!--Result-->
+        <div id="results">
+          <h1>Results</h1>
+          <div class="form__container">
+            <div class="input__group"><span>Monthly Payment</span>
+              <input class="form-control" type="number" id="monthly-payment" disabled/>
+            </div>
+          </div>
+          <div class="form__container">
+            <div class="input__group"><span>Monthly Payment</span>
+              <input class="form-control" type="number" id="total-payment" disabled/>
+            </div>
+          </div>
+          <div class="form__container">
+            <div class="input__group"><span>Monthly Payment</span>
+              <input class="form-control" type="number" id="total-interest" disabled/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/app.js"></script>
+</html>

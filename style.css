@@ -127,6 +127,7 @@ span {
     border: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     width:100%;
+    margin-bottom: 20px;
 }
 .btn:focus {
     border: none;
