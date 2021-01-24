@@ -1,6 +1,6 @@
 # loan-calculator
 
-![loan-calculator](https://user-images.githubusercontent.com/60290658/105629464-611c5a80-5e43-11eb-9f42-07b9826703d1.gif)
+![loan-calculator](https://user-images.githubusercontent.com/60290658/105629613-50b8af80-5e44-11eb-8021-c666fc88a65c.gif)
 
 
 a simple tool that will allow you to predict how much a personal loan will cost you as you pay it back every month.
