@@ -1,5 +1,5 @@
 {
-  "name": "Loan-calculator",
+  "name": "loan-calculator",
   "version": "1.0.0",
   "description": "a simple tool that will allow you to predict how much a personal loan will cost you as you pay it back every month.",
   "main": "index.js",
