@@ -17,6 +17,7 @@ body {
     padding-left: 10px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +36,12 @@ body {
     margin-top: 1rem;
     padding: 15px;
     width: 100%;
-    -webkit-box-shadow: -20px 17px 10px -5px rgba(0, 0, 0, 0.645);
+    -webkit-box-shadow: -10px 10px 5px -2px rgba(0, 0, 0, 0.645);
+-moz-box-shadow: -10px 10px 10px -2px rgba(5, 5, 5, 0.618);
+box-shadow: -10px 10px 5px -2px rgba(0, 0, 0, 0.494);
+}
+.card:hover {
+        -webkit-box-shadow: -20px 17px 10px -5px rgba(0, 0, 0, 0.645);
 -moz-box-shadow: -20px 17px 10px -5px rgba(5, 5, 5, 0.618);
 box-shadow: -20px 17px 10px -5px rgba(0, 0, 0, 0.494);
 }
@@ -148,6 +154,7 @@ span {
   top: 50px;
   transform-style: preserve-3d;
   zoom: 0.30;
+  margin-bottom: 60px;
 }
 @media (max-width: 480px) {
   .loader {
