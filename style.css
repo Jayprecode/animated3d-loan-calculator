@@ -40,7 +40,7 @@ body {
 box-shadow: -20px 17px 10px -5px rgba(0, 0, 0, 0.494);
 }
 h1 {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.2;
     padding-bottom: 1rem!important;
     margin-top: 0;
@@ -122,7 +122,9 @@ span {
 
 
 
-
+#loading, #results {
+    display: none;
+}
 
 
 

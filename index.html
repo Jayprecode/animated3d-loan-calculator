@@ -8,8 +8,8 @@
 	<body>
 		<div class="container">
 			<div class="card">
-				<h1>Loan Calculator</h1>
-				<form>
+				<h1 class="heading">Loan Calculator</h1>
+				<form id="loan-form">
 					<div class="form__container">
 						<div class="input__group">
 							<span>$</span>
@@ -46,7 +46,7 @@
 				</form>
 				<!--Loader Here-->
 
-				<div class="loader">
+				<div class="loader" id="loading">
 					<div class="box box0">
 						<div></div>
 					</div>
@@ -77,7 +77,7 @@
 				</div>
 
 				<!--Result-->
-				<div id="results" class="pt-4">
+				<div id="results">
 					<h1>Results</h1>
 					<div class="form__container">
 						<div class="input__group">
@@ -115,5 +115,6 @@
 				</div>
 			</div>
 		</div>
-	</body>
+    </body>
+    <script src="app.js"></script>
 </html>
