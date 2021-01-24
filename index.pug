@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Loan Calculator
+        link(rel="stylesheet" href="/style.css")
+    body
+        div(class="container")
+            div(class="card")
+                h1(class="heading") Loan Calculator
+                form(id="loan-form")
+                    div(class="form__container")
+                        div(class="input__group")
+                            span $
+                            input(type="number" class="form-control" id="amount" placeholder="Loan Amount")
+                    div(class="form__container")
+                        div(class="input__group")
+                            span %
+                            input(type="number" class="form-control" id="interest" placeholder="Interest Rate")
+                    div(class="form__container")
+                        input(type="number" class="form-control" id="years" placeholder="Years To Repay")
+                    div(class="form__container")
+                        input(type="submit" value="Calculate" class="btn")
+                <!--Loader Here-->
+                div(class="loader" id="loading")
+                    - for(let g = 0; g < 8;)
+                        div(class='box box' + g++)
+                            div
+                    div(class='ground')
+                        div
+                <!--Result-->
+                div(id="results")
+                    h1 Results
+                    div(class="form__container")
+                        div(class="input__group")
+                            span Monthly Payment
+                            input(type="number" class="form-control" id="monthly-payment" disabled/)
+                    div(class="form__container")
+                        div(class="input__group")
+                            span Monthly Payment
+                            input(type="number" class="form-control" id="total-payment" disabled/)
+                    div(class="form__container")
+                        div(class="input__group")
+                            span Monthly Payment
+                            input(type="number" class="form-control" id="total-interest" disabled/)
+    script(src="/app.js")
